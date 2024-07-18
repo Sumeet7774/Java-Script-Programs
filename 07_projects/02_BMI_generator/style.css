@@ -1,0 +1,25 @@
+.container {
+    background-color: rgba(159, 162, 14, 0.297);
+    height: 550px;
+}
+
+h1 {
+    font-weight: bold; 
+    font-size: 40px;
+}
+
+.calculate-button {
+    width: 100px;
+    height: 35px; /* Adjust the height for better appearance */
+    color: white; /* Change text color for contrast */
+    background-color: #007BFF; /* Add a background color */
+    border-radius: 11px;
+    border: none; /* Remove border for a cleaner look */
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Add transition for hover effect */
+}
+
+.calculate-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
